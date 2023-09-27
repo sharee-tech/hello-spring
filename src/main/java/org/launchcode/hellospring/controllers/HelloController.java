@@ -16,7 +16,7 @@ public class HelloController {
 
     @GetMapping("goodbye")
     public String goodbye() {
-        return "Goodbye, Spring!";
+        return "See ya later, Spring!";
     }
 
 //    Handles request of the form /hello?name=LaunchCode
